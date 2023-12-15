@@ -130,10 +130,10 @@ clear =()=> {
                   <button className="btn btn-danger" onClick={this.decreaseSecond}>-</button>
                 </div>
               </div>
-              <div className="card-footer d-flex justify-content-around">
-                <button className="btn btn-info" onClick={this.start} disabled={disabled}>Start</button>
-                <button className="btn btn-warning" onClick={this.stop}>Stop</button>
-                <button className="btn btn-primary" onClick={this.clear}>Clear</button>
+              <div className="card-footer d-flex justify-content-around flex-wrap g-3">
+                <button className="btn btn-info m-1" onClick={this.start} disabled={disabled}>Start</button>
+                <button className="btn btn-warning m-1" onClick={this.stop}>Stop</button>
+                <button className="btn btn-primary m-1" onClick={this.clear}>Clear</button>
               </div>
               <h1 className="text-center text-danger">{timeUp}</h1>
             </div>
